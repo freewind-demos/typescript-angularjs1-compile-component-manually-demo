@@ -5,6 +5,9 @@ module.exports = {
     path: __dirname,
     filename: 'bundle.js'
   },
+  resolve: {
+    extensions: ['.js', '.ts']
+  },
   module: {
     rules: [{
       test: /\.ts$/,
